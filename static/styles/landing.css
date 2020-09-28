@@ -80,3 +80,13 @@
         width: 100%;
     }
 }
+
+/*fixing the sidebar for final time*/
+@media (min-width: 575px) {
+    .wrapper {
+        position: relative;
+    }
+    .navbar {
+        position: fixed;
+    }
+}
