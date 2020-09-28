@@ -1,5 +1,4 @@
 /*responsive logo for navbar and sidebar*/
-
 @media (min-width: 320px) {
     .logo {
       width: 70px;
@@ -31,7 +30,7 @@
     }
   }
 
-/*main content section*/
+/*main content section-logo*/
 
 .section-logo {
     height:20%;
@@ -64,10 +63,31 @@
   }
 @media (min-width: 1200px) {
     #sec-logo {
-      width: auto;
-      height: 60%;
-      
+      width: 60%;
+      height: 90%;
+      padding: 3%;
     }
   }
 
-  
+/*full stretch image for laptops*/
+@media (min-width: 1500px) {
+    #sec-img0 {
+        width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    #sec-img1 {
+        width: 100%;
+    }
+}
+
+/* .wrapper {
+    position: relative;
+}
+.navbar {
+    position: sticky;
+} */
+
+#mains {
+    position: relative;
+}
